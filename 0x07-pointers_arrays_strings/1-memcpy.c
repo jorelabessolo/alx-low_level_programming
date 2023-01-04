@@ -1,7 +1,6 @@
 /*
  *File  : 1-memcpy.c
  *Auth: ABES
- *
  */
 
 #include "main.h"
@@ -16,13 +15,13 @@
  */
 void *_memcpy(void *dest, const void *src, size_t n)
 {
-	unsigned int i;
+	unsigned int index;
 	unsigned char *destination = dest;
 	const unsigned char *source = src;
 
-	for (i = 0; i < n; i++)
+	for (index = 0; index < n; index++)
 	{
-		destination[i] = source[i];
+		destination[index] = source[index];
 	}
 	return (dest);
 }
