@@ -13,8 +13,8 @@ int wildcmp(char *s1, char *s2);
 /**
  * strlen_no_wilds - Returns the length of a string,
  * ignoring wildcard characters.
- * strlen_no_wilds: description here
- * wildcmp : decrition here
+ * strlen_no_wilds:Return  description here
+ * wildcmp : Return decrition here
  * @Return: The length.
  */
 int strlen_no_wilds(char *str)
