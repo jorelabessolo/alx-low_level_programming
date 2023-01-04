@@ -7,15 +7,15 @@
  *
  * Return: copied memory with n byted changed
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+void *_memcpy(void *dest, const void *src, size_t n)
 {
-	int r = 0;
-	int i = n;
+	unsigned int i;
+	unsigned char *destination = dest;
+	const unsigned char *source = src;
 
-	for (; r < i; r++)
+	for (i = 0; i < n; i++)
 	{
-		dest[r] = src[r];
-		n--;
+		destination[i] = source[i];
 	}
 	return (dest);
 }
