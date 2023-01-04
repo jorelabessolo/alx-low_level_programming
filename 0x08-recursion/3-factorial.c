@@ -13,9 +13,9 @@
  * if n < 0 - 1 to indicate an error.
  */
 
-int long  factorial(int long n)
+int factorial(int n)
 {
-	int long  result = 2;
+	int result = 2;
 
 	if (n < 0)
 		return (-1);
