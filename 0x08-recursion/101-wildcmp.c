@@ -13,7 +13,6 @@ int wildcmp(char *s1, char *s2);
 /**
  * strlen_no_wilds - Returns the length of a string,
  * ignoring wildcard characters.
- * 
  * @Return: The length.
  */
 int strlen_no_wilds(char *str)
@@ -47,7 +46,7 @@ void iterate_wild(char **wildstr)
 }
 
 /**
- * postfix_match - Checks if a string str matches the postfix of 
+ * postfix_match - Checks if a string str matches the postfix of
  * another string potentially containing wildcards.
  * @str: The string to be matched.
  * @postfix: The postfix.
