@@ -11,12 +11,12 @@ char *postfix_match(char *str, char *postfix);
 int wildcmp(char *s1, char *s2);
 
 /**
- * strlen_no_wilds - Returns the length of a string,
+ * @strlen_no_wilds - Returns the length of a string,
  * ignoring wildcard characters.
  * strlen_no_wilds:Return  description here
  * wildcmp : Return decrition here
  * @Return: The length.
- * str : The string
+ * @str : The string
  * s1: string 1
  * s2: string 2
  */
