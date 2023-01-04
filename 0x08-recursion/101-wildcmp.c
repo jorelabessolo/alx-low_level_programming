@@ -16,6 +16,9 @@ int wildcmp(char *s1, char *s2);
  * strlen_no_wilds:Return  description here
  * wildcmp : Return decrition here
  * @Return: The length.
+ * str : The string
+ * s1: string 1
+ * s2: string 2
  */
 int strlen_no_wilds(char *str)
 {
@@ -77,7 +80,7 @@ char *postfix_match(char *str, char *postfix)
 
 /**
  * wildcmp - Compares two strings, considering wildcad characters.
- * @S1: The first string to be compared.
+ * @s1: The first string to be compared.
  * @s2: The second string to be compared - may contain wildcards.
  *
  * Return: if the strings can be considered identical - 1.
